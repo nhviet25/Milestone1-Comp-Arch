@@ -1,0 +1,36 @@
+[*]
+[*] GTKWave Analyzer v3.4.0 (w)1999-2022 BSI
+[*] Wed Mar 22 15:52:54 2023
+[*]
+[dumpfile] "/home/hviet25/lab_comparch/milestone/milestone1/wave.fst"
+[dumpfile_mtime] "Wed Mar 22 15:33:13 2023"
+[dumpfile_size] 1787
+[savefile] "/home/hviet25/lab_comparch/milestone/milestone1/wave.gtkw"
+[timestart] 880
+[size] 1920 973
+[pos] -1 -1
+*-5.641455 1430 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] TOP.
+[treeopen] TOP.top.
+[sst_width] 297
+[signals_width] 150
+[sst_expanded] 1
+[sst_vpaned_height] 288
+@28
+TOP.top.dut.clk_i
+TOP.top.dut.rst_ni
+[color] 2
+TOP.top.dut.nickle_i
+[color] 2
+TOP.top.dut.dime_i
+[color] 2
+TOP.top.dut.quarter_i
+@100000029
+TOP.top.dut.state[2:0]
+@28
+[color] 7
+TOP.top.dut.soda_o
+[color] 7
+TOP.top.dut.change_o[2:0]
+[pattern_trace] 1
+[pattern_trace] 0
