@@ -1,6 +1,6 @@
   module top(
     input logic clk_i, rst_ni,
-    input logic nickle_i,
+    input logic nickel_i,
     input logic dime_i,
     input logic quarter_i,
   
