@@ -2,8 +2,8 @@
 
 void set_random(Vtop *dut, vluint64_t sim_unit) {
   dut->rst_ni = (sim_unit > 4) && (rand()%30 != 0);
-  dut->nickle_i = rand()%2;
-  if (!dut->nickle_i){
+  dut->nickel_i = rand()%2;
+  if (!dut->nickel_i){
     dut->dime_i = rand()%2;
       if (!dut->dime_i){
         dut->quarter_i = rand()%2;
