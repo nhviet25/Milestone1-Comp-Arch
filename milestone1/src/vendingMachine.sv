@@ -1,6 +1,6 @@
 module vendingMachine(
   input logic clk_i, rst_ni,
-  input logic nickle_i,
+  input logic nickel_i,
   input logic dime_i,
   input logic quarter_i,
 
@@ -19,7 +19,7 @@ typedef enum logic [2:0] {
 state_e state, next_state;
 logic [2:0] coin;
 
-assign coin = {quarter_i, dime_i, nickle_i};
+  assign coin = {quarter_i, dime_i, nickel_i};
 
 always @(state or coin) begin
   case(state)
